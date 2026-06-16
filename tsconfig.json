@@ -1,0 +1,21 @@
+{
+    "include": ["./src"],
+    "exclude": ["./node_modules", "./dist"],
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["ESNext"],
+        "types": ["./types/cc.d.ts"],
+
+        "moduleResolution": "bundler",
+
+        "verbatimModuleSyntax": true,
+        "stripInternal": true,
+        "noImplicitReturns": true,
+        "noEmit": true,
+
+        "rootDir": "./src",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    }
+}

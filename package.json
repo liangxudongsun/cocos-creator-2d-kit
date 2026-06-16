@@ -1,0 +1,27 @@
+{
+    "name": "cocos-creator-2d-kit",
+    "version": "0.0.1",
+    "description": "提升CocosCreator3.x版本2d开发体验的工具包",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "dev": "tsdown --config ./tsdown.development.config.ts",
+        "build": "tsdown --config ./tsdown.production.config.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yxdtg/cocos-creator-2d-kit.git"
+    },
+    "keywords": [],
+    "author": "Yuxiang Liu",
+    "license": "MIT",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/yxdtg/cocos-creator-2d-kit/issues"
+    },
+    "homepage": "https://github.com/yxdtg/cocos-creator-2d-kit#readme",
+    "devDependencies": {
+        "tsdown": "^0.22.3",
+        "typescript": "^6.0.3"
+    }
+}
