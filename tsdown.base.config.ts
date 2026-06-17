@@ -10,9 +10,4 @@ export const TsdownBaseConfig = defineConfig({
     deps: {
         neverBundle: ["cc"],
     },
-    outExtensions: (context) => {
-        return {
-            js: ".js",
-        };
-    },
 });
