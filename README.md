@@ -2,6 +2,8 @@
 
 ### 提升CocosCreator3.x版本2d开发体验的工具包
 
+### 现已转向 https://github.com/yxdtg/cc-2d-kit
+
 ## 快速开始
 
 ### 使用npm安装
